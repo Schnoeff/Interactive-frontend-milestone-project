@@ -83,8 +83,31 @@
                     lng: -33.134766
                 }
             });
+
+            var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
+
+           var locations = [{
+                lat: 50.3277636,
+                lng: -4.7987956
+            }, {
+                lat: 50.3358878,
+                lng: -4.7392598
+            }, {
+                lat: 50.1474438,
+                lng: -5.0598514
+            }];
+
+            var markers = locations.map(function(location, i) {
+                return new google.maps.Marker({
+                    position: location,
+                    label: labels[i % labels.length]
+                });
+            });
+
+            var markerCluster = new MarkerClusterer(map, markers, {
+                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+            });
         }
-           
     </script>
         
     
