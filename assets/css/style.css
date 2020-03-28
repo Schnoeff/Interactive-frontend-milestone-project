@@ -8,3 +8,13 @@
     
 }
 div#map {min-height: 360px;}
+
+.html,body {
+
+}
+
+.room-features{
+    column-count: 2;
+    list-style-type: none;
+}
+
