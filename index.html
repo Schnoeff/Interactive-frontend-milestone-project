@@ -19,7 +19,7 @@
   </button>
 </div>
 <div class="company-banner">
-<h1 class="company-name">Seaside Retreats </h1>
+<h1 class="company-name">Seaside Retreats</h1>
 </div>
 
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -36,11 +36,11 @@
           Locations
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="webpages/locations/greatyarmouth.html">Great Yarmouth</a>
-          <a class="dropdown-item" href="webpages/locations/bournemouth.html">Bournemouth</a>
-          <a class="dropdown-item" href="webpages/locations/brighton.html">Brighton</a>
-          <a class="dropdown-item" href="webpages/locations/scarborough.html">Scarborough</a>
-          <a class="dropdown-item" href="webpages/locations/cornwall.html">Cornwall</a>
+          <a class="dropdown-item" href="locations/greatyarmouth.html">Great Yarmouth</a>
+          <a class="dropdown-item" href="locations/bournemouth.html">Bournemouth</a>
+          <a class="dropdown-item" href="locations/brighton.html">Brighton</a>
+          <a class="dropdown-item" href="locations/scarborough.html">Scarborough</a>
+          <a class="dropdown-item" href="locations/cornwall.html">Cornwall</a>
         </div>
       </li>
       <li class="nav-item">
@@ -64,7 +64,7 @@
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, voluptas doloremque ex, quo perferendis commodi vitae iure sed consequuntur architecto excepturi minus maxime, dolorum ipsam labore quae et voluptatibus accusantium.
       </p>
      </div>
-     <div class="col-lg-4 col-md-12">
+     <div class="col-lg-4  container-fluid">
       <img src="https://r-cf.bstatic.com/images/hotel/max1024x768/222/222636340.jpg" width="450" height="500" class="rounded float-right frontimg" alt="">
     </div>
     </div>
@@ -73,14 +73,20 @@
 <div>
 <h2>Have a look at some of our luxurious destinations!</h2>
 </div>
+<div class="container-fluid map-info">
+<div class="row">
+<div class="col-4 container-fluid">
+<h3>A quick overlook</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloribus obcaecati fuga, ducimus impedit possimus hic accusamus et. Deleniti soluta illum dolore explicabo quas aliquam possimus, est harum earum maiores.</p>
+ </div>
 <div id="map" class="col-8 map">
   <script>
         function initMap() {
             var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 3,
+                zoom: 4,
                 center: {
-                    lat: 46.619261,
-                    lng: -33.134766
+                    lat: 54.0227819,
+                    lng: -6.2211708
                 }
             });
 
@@ -90,12 +96,20 @@
                 lat: 50.3277636,
                 lng: -4.7987956
             }, {
-                lat: 50.3358878,
-                lng: -4.7392598
+                lat: 50.8206527,
+                lng: -0.1442815
             }, {
-                lat: 50.1474438,
-                lng: -5.0598514
+                lat: 54.2815558,
+                lng: -0.3987914
+            }, {
+                lat:50.7172717,
+                lng:-1.8853827 
+            }, {
+                lat:52.6124723,
+                lng:1.7375218      
             }];
+
+
 
             var markers = locations.map(function(location, i) {
                 return new google.maps.Marker({
@@ -110,7 +124,7 @@
         }
     </script>
         
-    
+  </div>  
 </div>
 
 
@@ -118,13 +132,20 @@
  <div class="jumbotron jumbotron-fluid brochure-image">
   <div class="container">
      <a class="btn btn-primary brochure-download" href="locations/brighton.html">Download the brouchre</a>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim perferendis doloribus assumenda sunt, eos maiores, accusamus id architecto, porro iusto hic eius animi dolorem ducimus corporis asperiores aperiam repudiandae explicabo.</p>
+  </div>
+</div>
+ <div class="jumbotron jumbotron-fluid brochure-image">
+  <div class="container">
+     <a class="btn btn-primary brochure-download" href="locations/brighton.html">Download the brouchre</a>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit nisi unde iure perferendis excepturi magni dolorem nulla. Omnis, distinctio. Optio ratione nulla reiciendis aspernatur eos, expedita repudiandae non aperiam sit?</p>
   </div>
 </div>
 
 </body>
 <footer>
-<div class="col-12 footer">
-
+<div class="col-12 container-fluid footer">
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus unde similique perspiciatis, itaque, fugit adipisci iste sunt quidem at eos iure soluta voluptatem nisi porro doloremque amet qui, recusandae rem!</p>
 </div>
 
 </footer>
