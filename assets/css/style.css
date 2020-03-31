@@ -17,9 +17,51 @@ div#map {min-height: 360px;}
     column-count: 2;
     list-style-type: none;
 }
-
+/*------------------------------------------------------------------ Hotels*/
 .hotel{
     padding-bottom:80px;
+    padding-right:20px;
+    padding-left:20px;
+}
+
+.hotel-summary{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.room-features{
+    padding-bottom:10px;
+}
+
+.hotel-name{
+    padding-top:30px
+}
+
+.features{
+    padding-bottom:15px
+}
+
+.room-price{
+padding-top:20px;
+text-align:center;
+}
+
+.fa-star{
+    padding-top:10px;
+}
+/*------------------------------------------------------------------ Hotels*/
+
+.location-summary{
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.location-info{
+    padding-top:20px;
+    padding-left:30px;
+
 }
 
 .carousel-item{
@@ -27,9 +69,17 @@ div#map {min-height: 360px;}
    padding-right:20px;
 }
 
-.hotel{
-    padding-left:20px;
+
+.social-links
+{
+   font-size:40px;
+   padding-left:30px;
 }
+
+.list-inline-item{
+    padding-left:50px;
+}
+
 
 .galleryimg{
     padding left:20px;
