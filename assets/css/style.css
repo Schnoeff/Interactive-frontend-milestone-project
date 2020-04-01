@@ -36,6 +36,20 @@ div#map {min-height: 360px;}
     padding-top:20px;
 }
 
+@media (min-width: 768px) {
+    .carousel{
+        padding-bottom:500px;
+    }
+ }
+
+@media (min-width: 576px) { 
+     .carousel{
+        padding-bottom:350px;
+    }
+ }
+
+
+
 .carousel-item{}
 
 .room-features{
@@ -43,7 +57,7 @@ div#map {min-height: 360px;}
 }
 
 .hotel-name{
-    padding-top:15px
+    padding-top:35px
 }
 
 .features{
