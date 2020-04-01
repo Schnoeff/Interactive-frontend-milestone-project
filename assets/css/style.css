@@ -27,14 +27,23 @@ div#map {min-height: 360px;}
 .hotel-summary{
     padding-top:20px;
     padding-bottom:20px;
+    font-family: 'Roboto Slab', serif;
 }
+
+.carousel{
+    width:600px;
+    height:225px;
+    padding-top:20px;
+}
+
+.carousel-item{}
 
 .room-features{
     padding-bottom:10px;
 }
 
 .hotel-name{
-    padding-top:30px
+    padding-top:15px
 }
 
 .features{
@@ -44,6 +53,7 @@ div#map {min-height: 360px;}
 .room-price{
 padding-top:20px;
 text-align:center;
+font-family: 'Roboto Slab', serif;
 }
 
 .fa-star{
@@ -52,10 +62,11 @@ text-align:center;
 /*------------------------------------------------------------------ Hotels*/
 
 .location-summary{
-    padding-left:50px;
-    padding-right:50px;
+    padding-left:10px;
+    padding-right:10px;
     padding-top:30px;
-    padding-bottom:30px;
+    padding-bottom:15px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .location-info{
