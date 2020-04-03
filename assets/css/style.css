@@ -2,73 +2,88 @@
     background-image:url("https://r-cf.bstatic.com/images/hotel/max1024x768/222/222636340.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    padding-top:50px;
+    padding-bottom:50px;
 }
 .brochure-download{
     text-align:center;
     
 }
-div#map {min-height: 360px;}
+
 
 .html,body {
-
+background-color:lightblue;
 }
 
 .room-features{
     column-count: 2;
     list-style-type: none;
     padding-bottom:10px;
+    padding-left:0;
 }
 .company-name{
-    padding-top:20px;
-    padding-left:20px;
+    padding-top:10px;
     text-align:center;
+    font-size:55px;
+    font-family: 'Gotu', sans-serif;
+    font-weight: 900;
 }
 
 /*------------------------------------------------------------------ Hotels*/
 .hotel{
     padding-bottom:20px;
-    padding-right:20px;
-    padding-left:20px;
+    padding-right:40px;
+    padding-left:40px;
+    border:1px;
+    border-style:solid;
+    background-color:#ccebff;
+        
 }
 
 .hotel-summary{
     padding-top:20px;
     padding-bottom:20px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Gotu', sans-serif;
 }
 
 .hotel-name{
-    padding-top:35px
+    padding-top:35px;
+    font-family: 'Gotu', sans-serif;
+    font-weight: 900;
 }
 
 .features{
-    padding-bottom:15px
+    padding-bottom:15px;
 }
 
 .room-price{
 padding-top:10px;
-text-decoration: bold;
-font-family: 'Roboto Slab', serif;
+font-size:24px;
+font-weight:900;
+font-family: 'Gotu', sans-serif;
+text-align:center;
 }
 
 .fa-star{
     padding-top:10px;
 }
 
-
 .location-summary{
-    padding-left:10px;
-    padding-right:10px;
+    padding-left:50px;
+    padding-right:50px;
     padding-top:30px;
     padding-bottom:15px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Gotu', sans-serif;
+    font-weight:600;
 }
 
 .location-info{
     padding-top:20px;
-    padding-left:30px;
+    padding-left:50px;
+    font-family: 'Gotu', sans-serif;
+    font-weight:900;
+    font-size:32px;
 }
-
 
 /*------------------------------------------------------------------ Carousel*/
 .carousel-item{
@@ -78,21 +93,67 @@ font-family: 'Roboto Slab', serif;
 
 .carousel{
     width:600px;
-    padding-top:70px;
+    padding-top:60px;
 }
 
-/*------------------------------------------------------------------ Carousel*/
+/*------------------------------------------------------------------ Footer*/
+.footerheadings{
+    padding-top:15px;
+    font-size:26px;
+}
+
 .social-links
 {
-   font-size:40px;
+   font-size:30px;
    padding-left:30px;
+   
 }
 
 .list-inline-item{
-    padding-left:50px;
+    padding-left:10px;
+       
+}
+/*------------------------------------------------------------------ Social links*/
+.fa-pinterest{
+    color:black;
+    }
+.fa-facebook{
+    color:black;
+}
+.fa-instagram{
+    color:black;
+}
+.fa-youtube{
+    color:black;
+}
+.fa-linkedin{
+    color:black;
+}
+.fa-twitter{
+    color:black;
+}
+.fa-pinterest:hover{
+     color:#4d4d4d;
+ }
+ .fa-facebook:hover{
+    color:#4d4d4d;
+}
+.fa-instagram:hover{
+    color:#4d4d4d;
+}
+.fa-youtube:hover{
+    color:#4d4d4d;
+}
+.fa-linkedin:hover{
+    color:#4d4d4d;
+}
+.fa-twitter:hover{
+    color:#4d4d4d;
 }
 
-
+.footer{
+    padding-top:10px;
+}
 .galleryimg{
     padding left:20px;
     padding-bottom:40px;
@@ -102,4 +163,43 @@ font-family: 'Roboto Slab', serif;
 
 .checked {
   color: gold;
+}
+
+.coming-soon{
+    text-align:center;
+    font-family: 'Gotu', sans-serif;
+    font-weight:900;
+    padding-top:50px;
+    
+}
+
+div#map {min-height: 360px;}
+
+.nav-item{
+    padding-left:40px;
+    font-size:26px;
+    font-family: 'Gotu', sans-serif;
+    font-weight: 900;
+}
+
+.bg-light{
+    background-color:#ccebff !important;
+}
+
+.hvr-underline-from-center:before{
+    background-color:lightblue;
+}
+
+.dropdown-menu{
+    font-size:18px;
+    background-color:lightblue;
+    font-family: 'Gotu', sans-serif;
+    
+    }
+
+.display-4{
+    font-family: 'Gotu', sans-serif;
+    font-size:68px;
+    margin-bottom:0;
+    
 }
