@@ -10,6 +10,36 @@
     
 }
 
+.about-us{
+    border:1px;
+    border-style:solid;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color:#ccebff;
+}
+
+.about{
+    padding-top:15px;
+    padding-left:20px;
+    font-family: 'Gotu', sans-serif;
+}
+.aboutheader{
+    padding-top:25px;
+    padding-left:20px;
+    font-family: 'Gotu', sans-serif;
+    font-weight:900;
+}
+
+
+.frontimg{
+height:600px;
+width:600px;
+padding-right:20px;
+    }
+
+
+
+
 
 .html,body {
 background-color:lightblue;
