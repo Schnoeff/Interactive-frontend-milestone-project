@@ -60,30 +60,64 @@
     </ul>
   </div>
 </nav>
-<div class="col-12 page-banner">
-<img src="https://r-cf.bstatic.com/images/hotel/max1024x768/222/222636340.jpg" height="80" width="100%">
+<div class="jumbotron jumbotron-fluid company-banner">
+  <div class="container">
+     <p class="display-4">Contact Us</p>
+       </div>
+</div>
 
-<form onsubmit="return sendMail(this);" class="contact-form">
+
+<div class="container-fluid opening-hours">
+<div class="row">
+<div class="container-fluid col-sm-12 ">
+<h2 class="contact-header"> Opening times</h2>
+<p class="opening-times">
+Monday ………………………….. 10.00 am – 6.00 pm <br>
+Tuesday ………………………….. 10.00 am – 8.00 pm <br>
+Wednesday …………………….. 10.00 am – 8.00 pm <br>
+Thursday ………………………… 10.00 am – 8.00 pm <br>
+Friday ……………………………… 9.00 am – 7.00 pm <br>
+Saturday …………………………. 9.00 am – 5.30 pm <br>
+Sunday ………………………….. 10.00 am – 4.30 pm</p>
+
+</div>
+</div>
+</div>
+
+
+
+<form onsubmit="return sendMail(this);" class="contact-form col-sm-12">
   
-  <div class="form-group">
+  <div class="form-group name">
     <label for="exampleInputName1">Name</label>
     <input type="name" class="form-control" id="exampleInputName1" required>
   </div>
-  <div class="form-group">
+  <div class="form-group email">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" placeholder="Seasideretreats@gmail.com" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
     
   </div>
-  <div class="form-group">
+  <div class="form-group enquiry">
     <label for="exampleFormControlTextarea1">What's your enquiry?</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary mail-button">Submit</button>
 </form>
 
+<div class="container-fluid">
+<div class="row">
+<div class="container-fluid col-sm-12 ">
+<p class="address">
+   Seaside Retreats<br>
+   47 Welston Avenue<br>
+   Cornwall, Land's End<br>
+   TR19 7AA
+</p>
+</div>
+</div>
+</div>
 
 
-</body>
 <footer>
 <div class="col-12 footer">
 <h5 class="uppercase footerheadings">Get in touch</h5>
@@ -128,6 +162,7 @@
 </div>
 
 </footer>
+</body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
