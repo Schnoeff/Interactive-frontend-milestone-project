@@ -38,8 +38,55 @@ padding-right:20px;
     }
 
 
+.contact-header{
+   padding-top:25px;
+    padding-left:20px;
+    font-family: 'Gotu', sans-serif;
+    font-weight:900;
+    text-align:center; 
+}
+
+.opening-times{
+     padding-top:15px;
+    padding-left:20px;
+    font-family: 'Gotu', sans-serif;
+    font-size:16px;
+    text-align:center;
+}
+
+@media(max-width:850px){
+    .opening-times{
+        font-size:12px;
+    }
+}
 
 
+
+.address{
+  padding-top:15px;
+        font-size:26px;
+    font-family: 'Gotu', sans-serif;
+    font-weight:900;  
+    text-align:center;
+}
+
+.contact-form{
+    width:85%;
+    padding-left:15%;
+    padding-top:25px;
+    }
+    
+
+@media(max-width:576px){
+    .contact-form{
+        width:100%;
+        padding-left:15px;
+    }
+}
+
+.mail-button{
+    align-items: center;
+}
 
 .html,body {
 background-color:lightblue;
@@ -230,7 +277,7 @@ div#map {min-height: 360px;}
 
 .display-4{
     font-family: 'Gotu', sans-serif;
-    font-size:68px;
+    font-size:42px;
     margin-bottom:0;
-    
+       
 }
