@@ -10,13 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+
+       <title>Seaside Retreats|Gallery</title>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
 <script type="text/javascript">
    (function(){
       emailjs.init("user_XW631UIuf1v3OtUlKPbdK");
-      
    })();
 </script>
-       <title>Seaside Retreats|Gallery</title>
 </head>
 
 <body>
@@ -84,18 +85,31 @@ Sunday ………………………….. 10.00 am – 4.30 pm</p>
 </div>
 </div>
 
-
+<div class="container-fluid">
+<div class="row">
+<div class="container-fluid col-sm-12">
+<h2 class="enquiryheading"> MAKE AN ENQUIRY<h2>
+<br>
+<p class="phonenumber"> 01572 647193</p>
+</div>
+</div>
+</div>
 
 <form onsubmit="return sendMail(this);" class="contact-form col-sm-12">
   
-  <div class="form-group name">
-    <label for="exampleInputName1">Name</label>
-    <input type="name" class="form-control" id="exampleInputName1" required>
+   <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputName4">Name</label>
+      <input type="name" class="form-control" id="inputName4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputphone4">Phone</label>
+      <input type="phonenumber" class="form-control" id="inputPhone4">
+    </div>
   </div>
-  <div class="form-group email">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" placeholder="Seasideretreats@gmail.com" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-    
+  <div class="form-group">
+    <label for="inputEmail4">Email</label> 
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Seasideretreats@gmail.com">
   </div>
   <div class="form-group enquiry">
     <label for="exampleFormControlTextarea1">What's your enquiry?</label>
