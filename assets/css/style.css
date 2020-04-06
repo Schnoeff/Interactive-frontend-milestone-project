@@ -1,3 +1,7 @@
+.html,body {
+background-color:lightblue;
+}
+
 .jumbotron{
     background-image:url("https://r-cf.bstatic.com/images/hotel/max1024x768/222/222636340.jpg");
     background-repeat: no-repeat;
@@ -7,8 +11,11 @@
 }
 .brochure-download{
     text-align:center;
-    
-}
+    }
+
+    .brochure{
+        margin-top:40px;
+    }
 
 .about-us{
     border:1px;
@@ -37,6 +44,7 @@ width:600px;
 padding-right:20px;
     }
 
+/*------------------------------------------------------------------ Contact Page*/
 
 .contact-header{
    padding-top:25px;
@@ -88,8 +96,18 @@ padding-right:20px;
     align-items: center;
 }
 
-.html,body {
-background-color:lightblue;
+.phonenumber{
+    text-align:center;
+    font-family: 'Gotu', sans-serif;
+    font-weight:900; 
+}
+
+.enquiryheading{
+    padding-top:25px;
+    text-align:center;
+    font-family: 'Gotu', sans-serif;
+    font-weight:900; 
+    font-size:40px;
 }
 
 .room-features{
