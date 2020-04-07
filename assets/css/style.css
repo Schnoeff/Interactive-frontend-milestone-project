@@ -271,6 +271,12 @@ text-align:center;
 
 div#map {min-height: 360px;}
 
+.frontimg{
+    width:450px;
+    height:500px;
+}
+
+
 .nav-item{
     padding-left:40px;
     font-size:26px;
