@@ -90,28 +90,7 @@
                     lng: -6.2211708
                 }
             });
-
-            var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
-
-           var locations = [{
-                lat: 50.3277636,
-                lng: -4.7987956
-            }, {
-                lat: 50.8206527,
-                lng: -0.1442815
-            }, {
-                lat: 54.2815558,
-                lng: -0.3987914
-            }, {
-                lat:50.7172717,
-                lng:-1.8853827 
-            }, {
-                lat:52.6124723,
-                lng:1.7375218      
-            }];
-
-
-
+               
             var markers = locations.map(function(location, i) {
                 return new google.maps.Marker({
                     position: location,
@@ -123,7 +102,42 @@
                 imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
             });
         }
+
+       function initMap() {
+  var scarborough = {lat: 54.0227819, lng: -6.2211708};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: scarborough
+  });
+
+  var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">Scarborough</h1>'+
+      '<div id="bodyContent">'+
+      '<p> Scarborough centres around a pretty, horse-shaped bay, sandy beaches ' +
+      'surfing opportunities, and hearty Yorkshire fare have made Scarborough a family favourite for more than 400 years '+
+      'Visit Scarborough and its two sweeping sandy beaches, rugged castle ruins, and museums for rain days. '+
+      'There’s plenty to do in Scarborough. Take a boat trip off shore to meet lazy seal colonies, surf in the North Sea or chug through the North York Moors on a traditional steam train. '+
+      '</p>'+
+      '</div>'+
+      '</div>';
+
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
+
+  var marker = new google.maps.Marker({
+    position: scarborough,
+    map: map,
+    title: 'Scarborough'
+  });
+  marker.addListener('click', function() {
+    infowindow.open(map, marker);
+  });
+}
     </script>
+        
         
   </div>  
 </div>
