@@ -104,7 +104,7 @@
         }
 
        function initMap() {
-  var scarborough = {lat: 54.0227819, lng: -6.2211708};
+  var scarborough = {lat: 54.282927, lng: -0.3998445};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 4,
     center: scarborough
@@ -113,7 +113,7 @@
   var contentString = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
-      '<img src="assets/images/maps/scarborough_map.jpg">'+
+      '<img src="assets/images/maps/scarborough_map.jpg" class="map-image" width=100%>'+
       '<h1 id="firstHeading" class="firstHeading">Scarborough</h1>'+
       '<div id="bodyContent">'+
       '<p> Scarborough centres around a pretty, horse-shaped bay, sandy beaches ' +
@@ -121,6 +121,7 @@
       'Visit Scarborough and its two sweeping sandy beaches, rugged castle ruins, and museums for rain days. '+
       'There’s plenty to do in Scarborough. Take a boat trip off shore to meet lazy seal colonies, surf in the North Sea or chug through the North York Moors on a traditional steam train. '+
       '</p>'+
+      '<a class="btn btn-primary map-button" href="scarborough.html">Have a look</a>'+
       '</div>'+
       '</div>';
 
