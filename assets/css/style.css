@@ -17,6 +17,12 @@ background-color:lightblue;
         margin-top:40px;
     }
 
+.page-banner{
+    height:80px;
+     width:100%;
+     padding:0;
+}
+
 .about-us{
     border:1px;
     border-style:solid;
@@ -37,12 +43,27 @@ background-color:lightblue;
     font-weight:900;
 }
 
+.homebttn{
+    text-align: center;
+   font-family: 'Gotu', sans-serif;
+   }
 
-.frontimg{
-height:600px;
-width:600px;
-padding-right:20px;
+.homebutton{
+    background-color:#4d4d4d;
+}
+
+.homebutton:hover{
+    background-color:#4d4d4d;
+}
+
+
+.homeimage{
+height:400px;
+width:100%;
+
     }
+
+
 
 /*------------------------------------------------------------------ Contact Page*/
 
@@ -271,10 +292,7 @@ text-align:center;
 
 div#map {min-height: 360px;}
 
-.frontimg{
-    width:450px;
-    height:500px;
-}
+
 
 
 .nav-item{
