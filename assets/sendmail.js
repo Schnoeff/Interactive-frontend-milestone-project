@@ -1,5 +1,5 @@
 function sendMail(contactForm) {
-    emailjs.send("gmail", "SeasideRetreats", {
+    emailjs.send("gmail", "Seaside Retreats", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "enquiry": contactForm.enquiry.value
@@ -14,3 +14,4 @@ function sendMail(contactForm) {
     );
     return false;  
 }
+console.log("oioi");

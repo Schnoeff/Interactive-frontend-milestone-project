@@ -8,13 +8,13 @@ background-color:lightblue;
     background-size:cover;
     padding-top:50px;
     padding-bottom:50px;
-}
-.brochure-download{
     text-align:center;
-    }
+}
 
-    .brochure{
-        margin-top:40px;
+    .galleryheading{
+        padding-top:25px;
+        font-size:55px;
+        font-family: 'Gotu', sans-serif;
     }
 
 .page-banner{
@@ -272,7 +272,7 @@ text-align:center;
     padding-top:10px;
 }
 .galleryimg{
-    padding left:20px;
+    padding-left:20px;
     padding-bottom:40px;
     height:300px;
     width:450px;
