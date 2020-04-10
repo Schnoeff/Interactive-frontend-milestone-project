@@ -97,11 +97,17 @@ Sunday ………………………….. 10.00 am – 4.30 pm</p>
 
 <div class="center-form">
 <form onsubmit="return sendMail(this);" class="contact-form">
-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>                    
-                    <textarea rows="5" name="enquiry" class="form-control" id="enquiry" placeholder="Seasideretreats@gmail.com" required></textarea>
-                    <button type="submit" class="btn btn-primary mail-button">Submit</button>
-                </form>
+<label class="form-label">Name</label>
+<input type="text" name="name" class="form-control form-inputs" id="fullname" placeholder="Frank Reynolds" required/>
+
+<label class="form-label">Email address</label>
+<input type="text" name="emailaddress" class="form-control form-inputs" id="emailaddress" placeholder="Seasideretreats@gmail.com" required>  
+
+<label class="form-label">What would you like to ask?</label>                
+<textarea rows="5" name="enquiry" class="form-control form-inputs" id="enquiry"></textarea>
+<br>
+<button type="submit" class="btn btn-primary homebutton">Submit</button>
+</form>
 </div>
 
 <div class="container-fluid">
