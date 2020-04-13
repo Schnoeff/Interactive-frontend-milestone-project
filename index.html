@@ -159,7 +159,7 @@ function initMap() {
 		  icon: icons[seaside.icon].icon,
 		  title: seaside.title
 		});
-		marker.addListener('mouseover', function() {
+		marker.addListener('click', function() {
 		  InfoWindows.open(map, this);
 		  InfoWindows.setContent(seaside.content);
 		});
