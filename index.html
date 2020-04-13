@@ -89,14 +89,13 @@
         var icons = { parking: { icon: 'https://tarantelleromane.files.wordpress.com/2016/10/map-marker.png?w=50' } };
 
 
-// REPLACE WITH DATA FROM API
-//TITLE | POSITION - LAT , LNG | ICON | TITLE | CONTENT
-var airports = [
+
+var seasides = [
 	{ 
 		title: 'Scarborough', 
 		position: { 
 			lat: 54.282927, 
-			lng: -0.3998445 }, 
+			lng: -0.4998445 }, 
 		icon: 'parking',	
 		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Scarborough</h1><div id="bodyContent"><p>Scarborough centres around a pretty, horse-shaped bay, sandy beaches ' +
       'surfing opportunities, and hearty Yorkshire fare have made Scarborough a family favourite for more than 400 years '+
@@ -109,7 +108,7 @@ var airports = [
 			lat: 50.6144995, 
 			lng: -2.4576908 }, 
 		icon: 'parking',	
-		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Leeds Airport - from £30</h1><div id="bodyContent"><p><b>Leeds Airport</b> - 3 terminal airport offering flights to Europe and around the world with national rail connections.</p> <p><a href="https://www.google.co.uk">BOOK</a></p></div></div>'
+		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Weymouth</h1><div id="bodyContent"><p>Weymouth is a seaside town in Dorset, southern England. Its sandy beach is dotted with colorful beach huts and backed by Georgian houses. Jurassic Skyline, a revolving viewing tower, and Victorian Nothe Fort offer harbour views. </p> <p><a href="weymouth.html" class="homebttn">Take a look!</a></p></div></div></p></div></div>'
 	},
 	{ 
 		title: 'Brighton', 
@@ -117,7 +116,7 @@ var airports = [
 			lat: 50.8224939, 
 			lng: -0.1374201 }, 
 		icon: 'parking',	
-		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Belfast Airport - from £30</h1><div id="bodyContent"><p><b>Belfast Airport</b> - 3 terminal airport offering flights to Europe and around the world with national rail connections.</p> <p><a href="https://www.google.co.uk">BOOK</a></p></div></div>'
+		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Brighton</h1><div id="bodyContent"><p>Brighton is a seaside resort in the county of East Sussex. It is a constituent part of the city of Brighton and Hove, created from the formerly separate towns of Brighton and Hove. Brighton is located on the south coast of England, positioned 47 miles south of London</p> <p><a href="brighton.html" class="homebttn">Take a look!</a></p></div></div>'
 	},
 	{ 
 		title: 'Bournemouth', 
@@ -125,7 +124,7 @@ var airports = [
 			lat: 50.7192413, 
 			lng: -1.8812443 }, 
 		icon: 'parking',	
-		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Edinburgh Airport - from £30</h1><div id="bodyContent"><p><b>Edinburgh Airport</b> - 3 terminal airport offering flights to Europe and around the world with national rail connections.</p> <p><a href="https://www.google.co.uk">BOOK</a></p></div></div>'
+		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Bournemouth</h1><div id="bodyContent"><p>Bournemouth is a coastal resort town on the south coast of England. At the 2011 census, the town had a population of 183,491, making it the largest in the administrative county of Dorset</p> <p><a href="bournemouth.html">Take a look!</a></p></div></div>'
 	},
 	{ 
 		title: 'Cornwall', 
@@ -133,7 +132,7 @@ var airports = [
 			lat: 50.2084603, 
 			lng: -5.4920382 }, 
 		icon: 'parking',	
-		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Cardiff Airport - from £30</h1><div id="bodyContent"><p><b>Cardiff Airport</b> - 3 terminal airport offering flights to Europe and around the world with national rail connections.</p> <p><a href="https://www.google.co.uk">BOOK</a></p></div></div>'
+		content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Cornwall</h1><div id="bodyContent"><p>Cornwall is a county on England’s rugged southwestern tip. It forms a peninsula encompassing wild moorland and hundreds of sandy beaches, culminating at the promontory Land’s End. The south coast, dubbed the Cornish Riviera, is home to picturesque harbour villages such as Fowey and Falmouth. The north coast is lined with towering cliffs and seaside resorts like Newquay, known for surfing.</p> <p><a href="cornwall.html" class="homebttn">Take a look!</a></p></div></div>'
 	},
 	
 ];
@@ -141,28 +140,28 @@ var airports = [
 function initMap() {
 	
 	var uk = { 
-		lat: 53.990221, 
-		lng: -3.911132 
+		lat: 52.590221, 
+		lng: -1.911132 
 	};
 	
 	var map = new google.maps.Map( document.getElementById('map'), {
-	  zoom: 5,
+	  zoom: 6,
 	  center: uk, 
 	  disableDefaultUI: true,
     });
 		  
 	var InfoWindows = new google.maps.InfoWindow({});
 	
-	airports.forEach(function(airport) {	
+	seasides.forEach(function(seaside) {	
 		var marker = new google.maps.Marker({
-		  position: { lat: airport.position.lat, lng: airport.position.lng },
+		  position: { lat: seaside.position.lat, lng: seaside.position.lng },
 		  map: map,
-		  icon: icons[airport.icon].icon,
-		  title: airport.title
+		  icon: icons[seaside.icon].icon,
+		  title: seaside.title
 		});
 		marker.addListener('mouseover', function() {
 		  InfoWindows.open(map, this);
-		  InfoWindows.setContent(airport.content);
+		  InfoWindows.setContent(seaside.content);
 		});
 	});
 }
