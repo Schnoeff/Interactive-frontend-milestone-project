@@ -21,7 +21,7 @@ background-color:lightblue;
 }   
 
 .page-banner{
-    height:80px;
+    height:200px;
      width:100%;
      padding:0;
 }
@@ -355,7 +355,7 @@ text-align:center;
 
 .display-4{
     font-family: 'Gotu', sans-serif;
-    font-size:52px;
+    font-size:49px;
     margin-bottom:0;
        
 }
