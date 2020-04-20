@@ -14,4 +14,3 @@ function sendMail(contactForm) {
     );
     return false;  
 }
-console.log("oioi");
