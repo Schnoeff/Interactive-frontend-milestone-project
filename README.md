@@ -24,5 +24,29 @@ PDF button - Allows the user to download the brochure on the index.html page. Do
 
 Image carousel - Allows the user to view 5 images per hotel by clicking on the slider buttons. This gives the user a greater insight to the hotel.
 
+Contact form - Allows the user to send a enquiry to the website owners by filling out the contact form located on the contact.html page which also utilises the email.js service.
+
+A feature i would like to add in the future would be a live chat system where the site users could speak to an operator ASAP to help with any small queries they may have. 
+
+Another feature i would like to add is a live language changer where the user could change the language of all the text on the page and still be fully functioning.
+
+In the future i would also like to add the correct images to all of the location carousles which i was unable to do in this instance because i lacked the time and technology in order to gather all of the correct images for each hotel while making them all the same size.
+
+Technologies used 
+
+Bootstrap - I used https://getbootstrap.com/ in my project to create the jumbotron located on the home page and the form section that is located on the reviews page. I also used bootstrap for guidance on creating the navigation bar with the added dropdown functionality. I used bootstrap for these sections because it created the elements exactly how I wanted them and it eliminated the chance of error if I typed it up myself.
+
+I used https://picresize.com/ so I could edit all of my images on the menu page to the exact same size so that the layout on the page would look uniform and professional. I used this size because it was a free and easy alternative to other paid editing software like photoshop.
+
+Email.js - I used email.js to create a function contact form which would send all customer enquiries to my gmail account. Through email.js I was able to create a general email template making incomming emails more structured and uniform. 
+
+Google maps api - I used google maps api to generate a map on the index.html page with 5 addition inwindow markers. I used this to make for a more informative and interactive page.
+
+Testing
+
+Throughout the development process I was testing how my website was being effected by any alterations I made in my code such as positioning and sizes. I did this by running the website in a separate browser tab and using the inspect function. Through this function I was consistently playing around with different sizes, colors and layouts as I could make any changes I wanted without effecting the actually code. This enabled me to pick up on silly mistakes I made like some elements not being responsive on the smallest resolutions. I was also able to pre plan what colors and sizes I wanted to implement without wasting any time on a gamble whether it would work or not. Using the inspect function also reduced the chance for errors because I was already able to see the end result before I added it to the real code.
+
+I also used a code validator website (https://validator.w3.org/) for both my CSS and HTML files throughout the development process. By using this website I was able to keep track of the code I was writing and any mistakes would be flagged up there and then which made rectifying them much easier as oppose to waiting until the end of my project then fixes every error I had made.
+
 
 
