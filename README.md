@@ -30,7 +30,7 @@ A feature i would like to add in the future would be a live chat system where th
 
 Another feature i would like to add is a live language changer where the user could change the language of all the text on the page and still be fully functioning.
 
-In the future i would also like to add the correct images to all of the location carousles which i was unable to do in this instance because i lacked the time and technology in order to gather all of the correct images for each hotel while making them all the same size.
+In the future i would also like to add the correct images to all of the location carousels which i was unable to do in this instance because i lacked the time and technology in order to gather all of the correct images for each hotel while making them all the same size.
 
 Technologies used 
 
