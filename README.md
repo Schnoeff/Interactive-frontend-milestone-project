@@ -55,3 +55,63 @@ My website also adapts to different screen sizes and resolutions in a way that a
 One problem I occured while trying to implement the google maps api was trying to add multiple location info window markers on the map. I was unable to add more than on at a time because of multiple syntax errors and a limited amount of knowledge in the area. To overcome this issue I researched multiple methods that other people had used and tried to make my own version using them as an aid. After a while of trial and error i was able to get the maps working efficiently and effectivly.
 
 I deployed my work on to Github only as it is the only platform I am familiar with at this point in time however I am aware of the importance of possibly committing to more than once site to ensure that projects are not loft if there are issues with one of the services. I deployed my work to Git hub by opening a new terminal tab in Gitpod and started off with the "git init" to initiate a git repository. Then to add any files or images I used the "git add" command followed by the file name following the correct directory path. For example, to add my style.css file I had to follow the directory path through the folders and use "git add assets/CSS/style.css". Once I had added all of the files that I wanted to I would then use the "git commit" command followed by "-m "(comment)"" so I was able to keep track of what I had done and maybe leave a note saying what I needed to do next. I could then check what was in the staging area by using the "git status" command which would tell you what each file was doing such as being modified or any uncommitted files. The final step was to then use the "git push" command which you would usually need to use your sign in details for Github but because I was using Gitpod there was no need to. Once the committed files were pushed they were then deployed on to the Github site.
+
+Credits:
+
+Contents - The text and images for St.Ives harbour hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g186243-d253697-Reviews-St_Ives_Harbour_Hotel_Spa-St_Ives_Cornwall_England.html
+
+The text and images for Hotel Tresanton came from: https://www.tripadvisor.co.uk/Hotel_Review-g186244-d188836-Reviews-Hotel_Tresanton-St_Mawes_Roseland_Peninsula_Truro_District_Cornwall_England.html
+
+The text and images for Fistral beach hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g186239-d618446-Reviews-Fistral_Beach_Hotel_and_Spa-Newquay_Cornwall_England.html
+
+The text and images for Stargazy Inn came from: https://www.tripadvisor.co.uk/Hotel_Review-g186242-d12883542-Reviews-The_Stargazy_Inn-Port_Isaac_Cornwall_England.html
+
+The text and images for Elements hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g190804-d605989-Reviews-Elements_Hotel-Bude_Bude_Stratton_Cornwall_England.html
+
+The text and images for The Orchid Hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g186262-d476980-Reviews-The_Orchid_Hotel-Bournemouth_Dorset_England.html
+
+The text and images for The Cumberland Hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g186262-d193345-Reviews-The_Cumberland_Hotel-Bournemouth_Dorset_England.html
+
+The text and images for Hotel Mirimar came from: https://www.tripadvisor.co.uk/Hotel_Review-g186262-d295803-Reviews-Hotel_Miramar-Bournemouth_Dorset_England.html
+
+The text and images for West Cliff Hotel came from:https://www.tripadvisor.co.uk/Hotel_Review-g186262-d193338-Reviews-Bournemouth_West_Cliff_Hotel-Bournemouth_Dorset_England.html
+
+The text and images for Royal Bath Hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g186262-d192218-Reviews-Royal_Bath_Hotel_Spa_Bournemouth-Bournemouth_Dorset_England.html
+
+The text and images for A Room with a view hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g186273-d3703310-Reviews-A_Room_With_A_View-Brighton_East_Sussex_England.html
+
+The text and images for Westbourne Hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g186273-d550162-Reviews-Westbourne_Hotel_Spa-Brighton_East_Sussex_England.html
+
+The text and images for Sea Spray Boutique Hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g186273-d483798-Reviews-Sea_Spray_Boutique_Hotel-Brighton_East_Sussex_England.html
+
+The text and images for Strawberry Fields Hotel from: https://www.tripadvisor.co.uk/Hotel_Review-g186273-d626749-Reviews-Strawberry_Fields-Brighton_East_Sussex_England.html
+
+The text and images for Artist Residence BrightonHotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g186273-d1162253-Reviews-Artist_Residence_Brighton-Brighton_East_Sussex_England.html
+
+The text and images for The Plough Hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g1204999-d9454785-Reviews-The_Plough-Scalby_Scarborough_Scarborough_District_North_Yorkshire_England.html
+
+The text and images for Clarence Gardens Hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g190744-d953097-Reviews-Clarence_Gardens_Hotel-Scarborough_Scarborough_District_North_Yorkshire_England.html
+
+The text and images for The Helaina Hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g190744-d597226-Reviews-The_Helaina-Scarborough_Scarborough_District_North_Yorkshire_England.html
+
+The text and images for The Cliffside Guesthouse came from: https://www.tripadvisor.co.uk/Hotel_Review-g190744-d2231271-Reviews-Cliffside_Guest_House-Scarborough_Scarborough_District_North_Yorkshire_England.html
+
+The text and images for The North Bay Guest House came from: https://www.tripadvisor.co.uk/Hotel_Review-g190744-d3843178-Reviews-North_Bay_Guest_House-Scarborough_Scarborough_District_North_Yorkshire_England.html
+
+The text and images for The Riviera Hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g190817-d675523-Reviews-The_Riviera_Hotel-Weymouth_Dorset_England.html
+
+The text and images for Channel View Guest House came from: https://www.tripadvisor.co.uk/Hotel_Review-g190817-d1172641-Reviews-Channel_View_Guest_House-Weymouth_Dorset_England.html
+
+The text and images for No.98 Boutique Hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g190817-d587160-Reviews-No_98_Boutique_Hotel-Weymouth_Dorset_England.html
+
+The text and images for The Illchester ArmsHotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g551704-d1199816-Reviews-The_Ilchester_Arms_Hotel-Abbotsbury_Weymouth_Dorset_England.html
+
+The text and images for The Sandcombe Hotel came from: https://www.tripadvisor.co.uk/Hotel_Review-g190817-d621145-Reviews-The_Sandcombe-Weymouth_Dorset_England.html
+
+Cornwall description: https://www.stayincornwall.co.uk/ and https://www.holidaycottages.co.uk/cornwall
+
+St Ives description: https://carbisbayholidays.co.uk/location/cottages-st-ives/
+Newquay description: https://www.holidaycottages.co.uk/holidays/newquay
+Bude description: https://www.visitbude.info/
+Port Isaac description: http://www.portisaac-online.co.uk/
+Falmouth description: https://www.falmouth.co.uk/
