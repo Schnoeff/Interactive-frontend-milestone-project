@@ -115,3 +115,5 @@ Newquay description: https://www.holidaycottages.co.uk/holidays/newquay
 Bude description: https://www.visitbude.info/
 Port Isaac description: http://www.portisaac-online.co.uk/
 Falmouth description: https://www.falmouth.co.uk/
+
+https://codepen.io/olivertaylor/pen/BWWNeb - Google maps API styling code
