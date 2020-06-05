@@ -7,13 +7,13 @@ background-color:lightblue;
     background-image:url("https://r-cf.bstatic.com/images/hotel/max1024x768/222/222636340.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    padding-top:50px;
+    margin-top:50px;
     padding-bottom:50px;
     text-align:center;
 }
 
  .company-name{
-    padding-top:10px;
+    padding-top:20px;
     text-align:center;
     font-size:55px;
     font-family: 'Gotu', sans-serif;
